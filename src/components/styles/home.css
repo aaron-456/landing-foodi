@@ -1,0 +1,155 @@
+.home-foodi {
+  margin-left: 1.1em;
+  margin-right: 1.1em;
+}
+
+.title-box-home {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5em;
+}
+
+.title-home,
+.text-food-home {
+  font-weight: 800;
+  font-size: 39px;
+}
+
+.text-food-home {
+  color: var(--color-green-major);
+}
+
+.paragraph-introductory-home {
+  color: var(--color-grey);
+  padding-top: 2em;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.buttons-box-home {
+  margin-top: 3em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button-order-now {
+  all: unset;
+  background-color: var(--color-green-major);
+  border-radius: 40px;
+  width: 130px;
+  height: 50px;
+  box-shadow: -2px 22px 38px 0px #8eff9a80;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white-color);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button-watch-Video {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  cursor: pointer;
+}
+
+.paragraph-watch-Video {
+  font-weight: 600;
+  color: var(--color-grey-secondary);
+}
+
+.circle-watch-video {
+  background-color: var(--white-color);
+  border-radius: 50%;
+
+  box-shadow: 6px 27px 34px 0px #0000001a;
+}
+
+.bxs-right-arrow {
+  padding: 14px;
+  font-size: 21px;
+}
+
+.box-two-home {
+  position: relative;
+  margin-top: 3em;
+}
+
+.hot-spicy-food-img {
+  position: absolute;
+  top: 120px;
+  left: -25px;
+  width: 240px;
+}
+
+.hot-spicy-food-box img {
+  width: 20px;
+  height: 20px;
+}
+
+.image-box-home {
+  position: relative;
+}
+
+.image-container {
+  max-width: 600px;
+}
+
+.menu-targets-box-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.menu-target-home {
+  width: 330px;
+  padding: 1em;
+  display: flex;
+  gap: 18px;
+  border-radius: 25px;
+  box-shadow: 7px 35px 51px 0px #00000024;
+  background-color: var(--white-color);
+}
+
+.menu-target-home img {
+  width: 100px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 15px;
+  object-position: left;
+}
+
+.information-menu-target-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.paragraph-menu-targets {
+  font-size: 17px;
+  color: #2c2c2c;
+}
+.bxs-star {
+  color: #ffe605;
+}
+
+.bx-star {
+  color: #b0b4b7;
+}
+
+.icon-dollar-home {
+  color: #ff7979;
+}
+
+.icon-dollar-home,
+.price-home,
+.paragraph-menu-targets {
+  font-weight: 600;
+}
+
+.price-home {
+  color: #515151;
+  font-size: 17px;
+}

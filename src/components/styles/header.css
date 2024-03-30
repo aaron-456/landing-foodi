@@ -1,0 +1,109 @@
+/*---------------- HEADER -------------- */
+
+.header-foodi {
+  border-bottom: 1px solid #dadce0;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+}
+
+.logo-header {
+  width: 100px;
+}
+
+.main-nav {
+  display: none;
+}
+
+.list-box-header {
+  display: grid;
+  margin-top: 1.7em;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+}
+
+.item-li-header {
+  list-style: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.open {
+  display: flex;
+  flex-direction: column-reverse;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 20px;
+  left: 20px;
+  margin-left: 0;
+  width: calc(100% - 40px);
+  border-radius: 0.5em;
+  padding: 18px;
+  background-color: white;
+  border: 1px solid #dadce0;
+}
+
+.logo-and-icon-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dadce0;
+}
+
+.img-logo-visible {
+  width: 100px;
+}
+
+.actions-box-header {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.bx-search,
+.bx-shopping-bag,
+.bx-phone-call,
+.bx-menu {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.close-icon-box {
+  background-color: #b31312;
+  display: flex;
+  border-radius: 6px;
+}
+
+.icon-close {
+  font-size: 25px;
+  color: white;
+}
+
+.contact-button {
+  all: unset;
+  background-color: rgba(57, 219, 74, 1);
+  border-radius: 40px;
+  color: white;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bx-phone-call {
+  font-size: 19px;
+}
+
+.text-contact {
+  display: none;
+}
+
+.menu-icon-box {
+  margin-left: 5px;
+  cursor: pointer;
+}
